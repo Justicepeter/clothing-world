@@ -1,0 +1,192 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+}
+
+/* Globals */
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+
+
+/* Left hand side */
+.left {
+
+
+
+    background-color: green;
+    width: 20%;
+    height: 100vh;
+    border: solid 1px blue;
+    overflow-y: scroll;
+
+
+
+
+}
+
+
+.left h2 {
+
+
+    padding: 20px 0px 30px 10px;
+
+
+}
+
+
+.textidentity .ul,
+.li,
+a {
+
+    padding-left: 30px;
+
+
+}
+
+.drop-menu {
+
+    padding: 10px 0px 10px 20px;
+    list-style-type: none;
+
+}
+
+/* 
+.contact .li, a{
+padding: 50px 0px 0px 0px;
+
+
+} */
+
+/* Right hand side */
+
+.right {
+
+    width: 70%;
+    height: 100vh;
+    /* background-color: aqua; */
+    border: solid 1px red;
+    overflow-y: scroll;
+    margin: 0px 10px 0px 0px;
+
+
+
+}
+
+.maincon{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.indivimage{
+
+    width: 24%;
+    position:relative;
+    
+    
+    }
+
+ img{
+width: 100%;
+
+
+}
+
+ .restimages {
+
+display: flex;
+justify-content: space-between;
+
+
+} 
+.new{
+background-color: black;
+color: white;
+width: 15%;
+position: absolute;
+top:0px;
+
+
+}
+
+.buy{
+
+background-color: black;
+position: absolute;
+color:white;
+/* width:24%; */
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+padding: 10px;
+
+
+
+}
+
+.buy:hover{
+
+
+    background-color: #ccc;
+}
+
+.blackbox{
+border: solid 1px yellow;
+background-color: black;
+padding:50px 15px; 
+
+
+
+}
+
+.blackbox input{
+    width: 100%;
+    padding: 8px;
+}
+
+.sub1{
+
+color:white;
+
+}
+.sub2{
+display: block;
+
+
+
+}
+
+.special{
+color: red;
+
+
+}
+
+.mainwrap{
+display:flex;
+justify-content: space-between;background-color: #ccc;
+
+
+
+
+
+}
+
+ .myform{
+
+background-color: #ccc;
+
+
+}
